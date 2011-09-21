@@ -28,6 +28,7 @@
 ?>
 
 //Chemarea funcției
+//wplook_pagenav(5); 5= 1, 2, 3, 4, 5 pagini apar numai la paginare
  <?php if (  $wp_query->max_num_pages > 1 ) : ?>
 	                        <?php if (function_exists('wplook_pagenav')) : ?><div class="page_navi"><?php wplook_pagenav(5); ?></div>
 	                <?php else: ?>
