@@ -38,3 +38,13 @@
 	                        </div>
 	                <?php endif;  ?>
 <?php endif;  ?><!-- page navi -->
+
+
+///**********************************************
+
+// Next Prev navigation in post
+
+<ul class="newer-older">
+	<li class="newer"><?php previous_post_link('%link', __('&laquo; Previous', 'wplook')); ?> </li>
+	<li class="older">|<?php next_post_link('%link', __('Next &raquo; ', 'wplook')); ?> </li>
+</ul>
