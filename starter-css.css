@@ -246,6 +246,29 @@ a:focus, a:active, a:hover {
 /* =Content
 ----------------------------------------------- */
 .sticky{border-bottom:1px solid #853B2F;}
+.entry-content h1 {
+	font-size:170%;
+}
+
+.entry-content h2 {
+	font-size:150%;
+}
+
+.entry-content h3 {
+	font-size:130%;
+}
+
+.entry-content h4 {
+	font-size:120%;
+}
+
+.entry-content h5 {
+	font-size:110%;
+}
+
+.entry-content h6 {
+	font-size:100%;
+}
 
 /* =Attachments
 ----------------------------------------------- */
